@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <title>Формула 1</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Игра Формула 1</h1>
+    <p>Трка од 10 круга</p>
+</header>
+
+<div class="controls">
+    <button onclick="startRace()" id="startButton">Започни трка</button>
+    <button onclick="resetRace()">Нова трка</button>
+    <p id="message">Притисни Започни трка за да започне трката.</p>
+</div>
+
+<div class="container">
+
+    <h2>Возачи на старт</h2>
+    <div id="startTable"></div>
+
+    <h2>Резултати од трката</h2>
+    <div id="raceResults">
+        Резултатите ќе се прикажат тука.
+    </div>
+
+    <div id="winnerSection">
+        <h2>Победник</h2>
+        <p id="winnerText"></p>
+    </div>
+
+</div>
+
+<script src="java3.js"></script>
+
+</body>
+</html>
